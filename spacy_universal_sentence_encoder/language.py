@@ -4,6 +4,8 @@ from spacy.language import Language
 from spacy.tokens import Doc, Span, Token
 from spacy.util import get_lang_class
 from absl import logging
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="-1"  
 import tensorflow as tf
 import tensorflow_hub as hub
 try:
