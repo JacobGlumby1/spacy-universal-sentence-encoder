@@ -6,7 +6,6 @@ from spacy.util import get_lang_class
 from absl import logging
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="-1"
-os.environ["TFHUB_CACHE_DIR"] = '/tmp/tfhub'
 import tensorflow as tf
 import tensorflow_hub as hub
 try:
