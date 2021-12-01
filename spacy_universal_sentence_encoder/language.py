@@ -4,7 +4,7 @@ from spacy.language import Language
 from spacy.tokens import Doc, Span, Token
 from spacy.util import get_lang_class
 from absl import logging
-import tensorflow as tf
+import tensorflow-cpu as tf
 import tensorflow_hub as hub
 try:
     # installed with the extra `multi`
