@@ -6,6 +6,7 @@ from spacy.util import get_lang_class
 from absl import logging
 import os
 import tensorflow as tf
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import tensorflow_hub as hub
 try:
     # installed with the extra `multi`
